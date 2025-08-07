@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: gabarito, sans-serif;
+    background-color: #fff;
+    color: #222;
+
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #ddd;
+    align-items: center;
+    /* width: 97%; */
+}
+
+.navbar__s1__tittle {
+    color: #B254F2;
+}
+
+.navbar__s2 {
+   padding: 6px 12px;
+   border: solid#ccc 1px;
+   border-radius: 20px;
+   width: 35%;
+   display: flex;
+   gap: 10px;
+   align-items: center;
+   background-color: white;
+}
+
+/* .navbar__s2__Explore {
+
+    justify-content: left;
+    text-align: left; */
+
+/* } */
+
+.navbar__s2 input {
+    border: none;
+    width: 100%;
+    font-size: 14px;
+}
+
+.navbar__s2 input:focus {
+
+    outline: none;
+    /* border-radius: 4px; */
+}
+
+.navbar__s3 {
+
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 15px;
+    font-size: 14px;
+}
+
+.navbar__s3__button,.navbar__s3__button2
+ {
+    padding: 8px 14px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+.navbar__s3__button {
+    color: #6D28D2;
+    background-color: white;
+    border: solid #6D28D2 1px;
+}
+
+.navbar__s3__button2 {
+    color: white;
+    background-color: #6D28D2;
+    border: solid #6D28D2 1px;
+    
+}
+
+.Skill__image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.career--section {
+    padding: 20px 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* .career--section p {
+    color: gray;
+    margin-bottom: 20px; */
+/* }
+
+.career--section h2 {
+    font-size: 26px;
+    margin-bottom: 5px;
+} */
+.career-card{
+    background-color: white;
+    border-radius: 8px;
+    width: 300px;
+    border: solid 1px #ddd;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba (red, green, blue);
+    /* overflow: hidden; */
+}
+.career-cards{
+    display: flex;
+    gap: 20px   ;
+    flex-wrap: wrap;
+}
+.career-card img {
+    width: 100%;
+   height: 200px;
+   object-fit: cover;
+}
+
+.career-card h3 {
+    padding: 10px 15px 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.course-info {
+    padding: 0 15px 15px;
+    font-size: 13px;
+    color: #555;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    
+}
+
+.rating{
+    color: gray;
+    font-size: 13px;
+    height: 30px;
+    width: 100px;
+    ;
+}
+.star{
+    color: gray;
+    font-size: 13px;
+     height: 30px;
+    width: 50px;
+    
+}
+.hours{
+    color: gray;
+    font-size: 13px;
+    ;
+}
+
+.career--course {
+    padding: 10px;
+}
+
+.career__section2 {
+    width: 500px;
+    padding: 10px;
+}
+
+.career__section2 img {
+    width: 400px;
+    height: 220px;
+}
+
+.career--course button {
+    background-color: white;
+    color: gray;
+    border: solid 1px;
+    height: 20px;
+
+}
+
+.career__section3 {
+    width: 500px;
+    padding: 10px;
+}
+
+.career__section3 img {
+    width: 400px;
+    height: 220px;
+}
+
+.career--course button {
+    background-color: white;
+    color: gray;
+    border-radius: 3px;
+    height: 20px;
+}
+
+.Catogeries {
+    display: flex;
+    /* border: solid 100%; */
+
+}
+
+.Accelerators__list button {
+    background-color: white;
+    color: #6D28D2;
+    border: solid 1px;
+    width: 20%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.Accelerators__list {
+    padding: 10px;
+
+}
+.Course--Details{
+    display:flex;
+    justify-content: space-around;
+        
+}
+.Course__Learners{
+    display: flex;
+    justify-content: space-around;
+    border: solid gray;
+    padding: 10px;
+}
+.Course__Learners--CSS{
+    border-radius: 3px;
+    border: solid gray 1px;
+
+}
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+.top-btn {
+    background: #e5e5ff;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+.subtitle {
+    color: #555;
+    margin-bottom: 20px;
+}
+.main-tabs span {
+    margin-right: 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.main-tabs .active {
+    border-bottom: 2px solid black;
+    padding-bottom: 4px;
+}
+.sub-tabs {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.sub-tabs button {
+    border: none;
+    background: #f2f2f2;
+    /* margin: 5px; */
+    padding: 8px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    /* text-align: center; */
+}
+/* .sub-tabs .active {
+    background: #000;
+    color: white;
+} */
+ .courses{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+ }
+ .course-card{
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 5px;
+    width: 260px;
+    position: relative;
+    background: white;
+ }
+ .course-card img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+ }
+ .course-card h3{
+    font-size: 16px;
+    margin: 10px 0 5px;
+ }
+ .instructor{
+    font-size: 13px;
+    color: #666;
+ }
+ .rating{
+    font-size: 14px;
+    margin: 5px 0;
+ }
+ .price{
+    font-weight: bold;
+    margin: 5px 0;
+ }
+ .old-price{
+    color: #777;
+    margin-left: 5px;
+font-weight: normal;
+ }
+ .tag{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 4px;
+ }
+ .tag-bestseller{
+    background-color: orange;
+    border-radius: 2px;
+    border: solid black 1px;
+ }
+ .tag-premium{
+    background-color: purple;
+     border: solid black 1px
+ }
