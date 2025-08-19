@@ -119,10 +119,25 @@ display: block;
     position: absolute;
     top: 15%;
     left: 5%;
-
-
-
+    animation-name: zoom;
+    animation-duration: 2s;
+    opacity: 0;
+animation-fill-mode: forwards;
 }
+@keyframes zoom{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+
+    }
+    
+    100%{
+        transform: scale(1);
+        opacity: 1;
+
+    }
+}
+
 .Skill__image img {
     width: 100%;
     /* height: auto;
@@ -315,13 +330,21 @@ h1 {
 }
 .sub-tabs button {
     border: none;
-    background: #f2f2f2;
+    background: #6D28D2;
     /* margin: 5px; */
     padding: 8px 14px;
     border-radius: 20px;
     cursor: pointer;
     font-size: 14px;
+    border: solid white;
     /* text-align: center; */
+
+}
+.sub-tabs button:hover{
+    transition: 1s;
+    background-color: transparent;
+    color: black;
+    border: solid white;
 }
 /* .sub-tabs .active {
     background: #000;
